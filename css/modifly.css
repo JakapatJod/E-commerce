@@ -94,6 +94,11 @@ p{
     padding-right: 25px;
     font-family: 'Kanit', sans-serif;
 }
+
+.cursor_pointer {
+    cursor: pointer !important;
+}
+
 .col-4{
     flex-basis: 25%;
     padding: 10px;
@@ -225,6 +230,38 @@ ul{
         display: none;
     }
 }
+
+
+
+.hidden {
+    display: none !important;
+}
+
+.cart_area {
+    position: relative;
+}
+
+.count_items_cart_area {
+    position: absolute;
+    top: 20px;
+    right: -4px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.unit_items_cart {
+    margin-top: -1.5px;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    color: #222;
+}
+
+
+
+
  
 .cart-page {
     margin: 80px auto;

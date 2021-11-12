@@ -25,7 +25,12 @@
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
-                <a href="cart.html"><img src="img/cart.png" width="30px" height="30px"></a>
+                <a class="cart_area" href="cart.html">
+                    <img src="img/cart.png" width="30px" height="30px">
+                    <div class="count_items_cart_area hidden">
+                        <p class="unit_items_cart">0</p>
+                    </div>
+                </a>
                 <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">           
             </div>
 
@@ -33,7 +38,8 @@
     </div>
     
 <!------ตะกร้าสินค้า------->
-<div class="small-container cart-page">
+<div id="showDataInCart" class="small-container cart-page">
+    <!---
     <table>
         <tr>
             <th>สินค้า</th>
@@ -86,6 +92,7 @@
             <td> ฿ 9990.0</td>
         </tr>
     </table>
+    -->
     <div class="total-price">
         <table>
             <tr>
@@ -156,5 +163,9 @@
                 }
         }
     </script>
+
+    <script src="./js/shopping.js"></script>
+    <script src="./js/cart.js"></script>
+
 </body>
 </html>
