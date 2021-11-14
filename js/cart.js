@@ -9,7 +9,6 @@ var str_dataItems = `
     <tr>
         <th>สินค้า</th>
         <th>จำนวนสินค้า</th>
-        <th>ยอดรวม</th>
     </tr>
 `;
 
@@ -28,7 +27,6 @@ for (let i = 0; i < tempDataCart.length; i++) {
                 </div>
             </td>
             <td><input type="number" value="${tempDataCart[i].count}"></td>
-            <td>฿ 3890.0</td>
         </tr>
     `;
 }
